@@ -30,6 +30,14 @@ class Gruppe {
   artikelFinden(suchName, meldungAusgeben) {
     // TODO: füge hier Deinen Code ein
 
+
+    for( let artikel of this.artikelListe){
+        if (suchName == artikel.name){
+      return artikel
+        }
+    }
+    return = null
+
   }
 
   /**
