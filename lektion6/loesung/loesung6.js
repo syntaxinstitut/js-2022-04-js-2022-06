@@ -19,8 +19,9 @@ let aktiveGruppe = null
 function gruppeFinden(gruppenName) {
     let gefundeneGruppe = gruppenListe.indexOf(gruppenName)
     if (gefundeneGruppe > -1) {
-        return gruppenListe[gefundeneGruppe]
-    } else {
+        return gruppenListe[gefundeneGruppe] }
+    else
+     {
         console.warn("Gruppe \"" + gruppenName + "\" nicht gefunden")
         return null
     }

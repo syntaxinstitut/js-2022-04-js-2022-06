@@ -10,7 +10,7 @@ function artikel_Gekauft() {
     }
 }
 /**
- * 2) Erstelle eine if-Abfrage, die in der Kosole ausgibt, dass ein Artikel hinzugefügt wurde,
+ * 2) Erstelle eine if-Abfrage, die in der Konsole ausgibt, dass ein Artikel hinzugefügt wurde,
  * falls der `artikelName` NICHT leer ist.
  */
 function artikel_Hinzufuegen() {
